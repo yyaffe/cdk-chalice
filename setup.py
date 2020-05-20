@@ -30,9 +30,9 @@ setup(
     ],
     description=about['__description__'],
     install_requires=[
-        'aws_cdk.aws_iam>=1.18.0',
-        'aws_cdk.aws_s3_assets>=1.18.0',
-        'aws_cdk.core>=1.18.0',
+        'aws_cdk.aws_iam==1.38.0',
+        'aws_cdk.aws_s3_assets==1.38.0',
+        'aws_cdk.core==1.38.0',
         'docker'
     ],
     license=about['__license__'],
